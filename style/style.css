@@ -1,0 +1,447 @@
+header {
+  background-color: #0A0A0B;
+}
+
+.header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.header-logo {
+  width: 71px;
+  height: 22px;
+}
+
+.header__right span {
+  margin: 0 25px;
+}
+
+.header__right a {
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-shadow: 0px 0px 32px #346DDA;
+}
+
+.header__burger {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+
+.header__right a:hover {
+  color: #4177DC;
+}
+
+.header__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 140%;
+  text-align: center;
+  margin-top: 93px;
+}
+
+.header__subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header__caption {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  color: #BABEC4;
+  gap: 7px;
+  margin: 8px 585px;
+}
+
+.header__car {
+  width: 380px;
+  margin: 0 450px;
+  height: 222px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.header__wrapper div {
+  text-align: center;
+}
+
+.header__wrapper {
+  margin: 40px 437px;
+}
+
+.header__bottom-img {
+  width: 32px;
+  height: 32px;
+}
+
+.header_content h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  margin-top: 16px;
+}
+
+.header_content p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  margin-top: 4px;
+  color: #888B91;
+}
+
+.header__startstop {
+  width: 90px;
+  height: 90px;
+  margin: 0 595px;
+  margin-top: 9px;
+}
+
+@media only screen and (max-width: 410px) {
+  .container {
+    max-width: 410px;
+    width: 90%;
+  }
+  .header__block {
+    padding: 21px 26px;
+  }
+  .header__right {
+    display: none;
+  }
+  .header__burger {
+    display: block;
+  }
+  .header__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    margin-top: 98px;
+  }
+  .header__subtitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 16px;
+  }
+  .header__car {
+    margin: 48px 40px;
+    width: 280px;
+    height: 163px;
+  }
+  .header__caption {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    margin: 4px 138px;
+  }
+  .header__wrapper {
+    margin: 40px 32px;
+    gap: 58px;
+  }
+  .header__wrapper .header_content:nth-child(3) {
+    margin-left: 25px;
+  }
+  .header__bottom-img {
+    width: 25px;
+    height: 25px;
+  }
+  .header_content h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 12px;
+  }
+  .header_content p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 4px;
+  }
+  .header__startstop {
+    margin: 17px 135px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Exo";
+  font-style: normal;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.Porsche {
+  background: #0A0A0B;
+}
+
+.porsche__block {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 104px 0;
+}
+
+.porsche-img {
+  width: 480px;
+  height: 320px;
+}
+
+.porsche__wrap {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-radius: 20px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 197px;
+  position: relative;
+  left: 283px;
+  bottom: 51px;
+}
+
+.porsche__wrap h5 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.porsche__wrap p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  width: 157px;
+  text-align: center;
+}
+
+.porsche__wrapper {
+  margin: 42px 88px;
+}
+
+.porsche__wrapper h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  width: 209px;
+  color: #F1F2F3;
+}
+
+.porsche__wrapper p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #BABEC4;
+  margin-top: 24px;
+}
+
+.porsche__wrapper button {
+  padding: 14px 32px;
+  background: #4177DC;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  margin-top: 48px;
+}
+
+@media only screen and (max-width: 410px) {
+  .container {
+    max-width: 420px;
+    width: 90%;
+  }
+  .porsche__block {
+    padding: 88px 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .porsche-img {
+    width: 312px;
+    height: 208px;
+    margin-left: 24px;
+  }
+  .porsche__wrap {
+    width: 181px;
+    padding: 16px 12px;
+    position: relative;
+    left: 155px;
+  }
+  .porsche__wrap h2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .porsche__wrap p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    width: 157px;
+  }
+  .porsche__wrapper {
+    margin: 0;
+  }
+  .porsche__wrapper h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    width: 174px;
+    margin-top: 48px;
+  }
+  .porsche__wrapper p {
+    font-weight: 400;
+    font-size: 15px;
+    width: 312px;
+    margin-top: 16px;
+    line-height: 140%;
+  }
+  .porsche__wrapper button {
+    margin-top: 32px;
+  }
+  .porsche__wrapper {
+    width: 228px;
+  }
+  .brands__title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .brands__wrapper:nth-child(2) {
+    display: none;
+  }
+  .brands__wrapper:nth-child(3) {
+    display: none;
+  }
+  .brand__block {
+    margin-top: 56px;
+  }
+  .brands__wrapper {
+    width: 228px;
+    margin-left: 54px;
+  }
+}
+.brands {
+  padding: 56px 0px;
+}
+
+.brands__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  width: 278px;
+  color: #F1F2F3;
+  margin: 0 auto;
+}
+
+.brand__block {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands__wrapper {
+  background: #111213;
+  border-radius: 20px;
+  width: 258px;
+  padding: 32px 22px 24px 24px;
+}
+
+.brands__wrapper h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #F1F2F3;
+}
+
+.brands__wrapper p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #BABEC4;
+}
+
+.brands-img {
+  width: 180px;
+  height: 80px;
+  margin-left: 34px;
+}
+
+.brands-vector {
+  width: 16px;
+  height: 16px;
+}
+
+.brands__content {
+  margin-top: 20px;
+}
+
+.brands-logo {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.brand-logo {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.brands__content {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.brands__wrapper-end {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  color: #FFFFFF;
+  margin-top: 31px;
+}
+
+.brand_button {
+  width: 56px;
+  height: 48px;
+  position: relative;
+  left: 120px;
+  top: 30px;
+}/*# sourceMappingURL=style.css.map */
